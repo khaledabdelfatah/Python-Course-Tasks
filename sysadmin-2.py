@@ -9,5 +9,4 @@ os.mkdir("newdir")
 with open("newdir/newfile", "w") as f:
     f.write("This is a new file.")
 
-# Set the file permissions to be executable
 os.chmod("newdir/newfile", 0o755)
